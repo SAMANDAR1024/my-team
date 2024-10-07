@@ -1,15 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 @import "variable";
 @import "header";
 @import "section";
 @import "footer";
 
-
-.container{
-    max-width: 1440px;
-    margin: 0 auto;
+.container {
+  max-width: 1990px;
+  margin: 0 auto;
+  padding: 0;
 }
