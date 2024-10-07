@@ -1,4 +1,3 @@
-@import "variable";
 header {
   .phone {
     display: none;
@@ -36,19 +35,7 @@ header {
       }
     }
     button {
-      padding: 19px 59px;
       background-color: rgba(255, 113, 67, 1);
-      border: none;
-      border-radius: 10px;
-      color: white;
-      &:hover {
-        transform: scale(1.03);
-        transition: 0.4s;
-      }
-      &:active {
-        transform: scale(0.9);
-        transition: 0.4s;
-      }
     }
   }
   main {
@@ -74,19 +61,7 @@ header {
         opacity: 0.6;
       }
       button {
-        padding: 19px 59px;
         background-color: rgba(84, 84, 212, 1);
-        border: none;
-        border-radius: 10px;
-        color: white;
-        &:hover {
-          transform: scale(1.03);
-          transition: 0.4s;
-        }
-        &:active {
-          transform: scale(0.9);
-          transition: 0.4s;
-        }
       }
     }
   }

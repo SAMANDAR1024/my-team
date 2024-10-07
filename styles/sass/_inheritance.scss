@@ -9,3 +9,19 @@
     margin-bottom: 50px;
     width: 429px;
 }
+
+.header-btn{
+    padding: 19px 59px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.03);
+        transition: 0.4s;
+    }
+    &:active {
+        transform: scale(0.9);
+        transition: 0.4s;
+    }
+}
